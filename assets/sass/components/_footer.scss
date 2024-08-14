@@ -1,0 +1,12 @@
+@use "../utils/variables" as v;
+
+.footer {
+  font-family: "Maname";
+  padding: 20px;
+  text-align: center;
+  background-color: v.$backgroundDarker;
+}
+
+.footerLink {
+  color: v.$white;
+}

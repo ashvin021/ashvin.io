@@ -1,0 +1,72 @@
+baseURL = 'https://ashvin.io/'
+theme = 'nightfall'
+
+[params]
+  user = "hi"
+  hostname = "ashvin.io"
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/ashvin021"
+icon = "fab fa-github fa-fw"
+target = "_blank"
+aria = "GitHub Profile"
+
+[[params.social]]
+key = 0
+name = "linkedin"
+url = "https://www.linkedin.com/in/ashvin-arsakularatne/"
+icon = "fab fa-linkedin fa-fw"
+target = "_blank"
+aria = "LinkedIn Profile"
+
+[[params.social]]
+key = 1
+name = "email"
+url = "mailto:hi@ashvin.io"
+icon = "fas fa-envelope fa-fw"
+aria = "Send me an e-mail"
+
+defaultContentLanguage = 'en-GB'
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-GB'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    weight = 1
+
+   [languages.en.params]
+
+        [languages.en.params.author]
+          name = "Ashvin Arsakularatne"
+          email = "hi@ashvin.io"
+
+        [languages.en.params.index]
+          title = "👋 Hi, I'm Ashvin."
+          description = "I'm a Software Engineer, currently living and working in London, UK. Welcome to my website, where I will share ideas, projects and other things I'm thinking about!"
+
+
+
+
+  [languages.si]
+    contentDir = 'content/si'
+    disabled = false
+    languageCode = 'si'
+    languageDirection = 'ltr'
+    languageName = 'Sinhala'
+    weight = 1
+    footerHtml = '© 𑇢𑇴𑇫𑇤 අශ්වින් අර්සකුලරත්න, <a href="https://gohugo.io" class="footerLink">Hugo</a> සහ <a href="https://github.com/LordMathis/hugo-theme-nightfall" class="footerLink">Nightfall</a> තේමාවෙන් ඉදිකර ඇත'
+
+        [languages.si.params.author]
+          name = "අශ්වින් අර්සකුලරත්න"
+          email = "hi@ashvin.io"
+
+        [languages.si.params.index]
+          title = "👋 හලෝ, මම අශ්වින්෴"
+          description = """මම මෘදුකාංග ඉංජිනේරුවෙකු වන අතර, දැනට ලන්ඩන්, එක්සත් රාජධානියේ ජීවත්වමින් සහ වැඩ කරමින් සිටිමි. මගේ වෙබ්අඩවියට සාදරයෙන් පිළිගනිමු. මෙහිදී මම අදහස්, ව්‍යාපෘති සහ මගේ සිතුවිලි බෙදා හදා ගන්නෙමි!
+෴෴෴"""
+
