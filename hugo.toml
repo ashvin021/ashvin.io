@@ -57,7 +57,7 @@ defaultContentLanguageInSubdir = true
     disabled = false
     languageCode = 'si'
     languageDirection = 'ltr'
-    languageName = 'Sinhala'
+    languageName = 'සිංහල'
     weight = 1
     footerHtml = '© 𑇢𑇴𑇫𑇤 අශ්වින් අර්සකුලරත්න, <a href="https://gohugo.io" class="footerLink">Hugo</a> සහ <a href="https://github.com/LordMathis/hugo-theme-nightfall" class="footerLink">Nightfall</a> තේමාවෙන් ඉදිකර ඇත'
 
